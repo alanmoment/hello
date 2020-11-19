@@ -1,6 +1,8 @@
 FROM golang:1.14
 
-WORKDIR ${pathToContext}
+ARG PATHTOCONTEXT
+
+WORKDIR ${PATHTOCONTEXT}
 COPY main.go .
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o main .
 
