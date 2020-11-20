@@ -4,12 +4,11 @@ FROM golang:1.14-alpine
 
 # WORKDIR ${PATHTOCONTEXT}
 
-WORKDIR /go/src/app
-ADD main /go/src/app
-# COPY main.go .
+COPY main /go/src/app
 
-# RUN pwd
-# RUN ls -all
+WORKDIR /go/src/app
+
+# ADD main /go/src/app
 # RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o main .
 
 CMD ["./main"]
