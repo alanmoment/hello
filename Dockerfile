@@ -8,7 +8,8 @@ FROM golang:1.14-alpine
 # ADD main /go/src/app
 # RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o main .
 
-COPY main /go
+# COPY main /go
+COPY --from=build main /go
 WORKDIR /go
 
 CMD ["./main"]
