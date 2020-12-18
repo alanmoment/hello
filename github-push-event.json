@@ -1,7 +1,7 @@
 {
   "ref": "refs/heads/master",
-  "before": "43241aaa156b7dcabb32e3c4147129f10e0389ee",
-  "after": "b2ff0c514aaa28ae295daa41dd926108e0471029",
+  "before": "b2ff0c514aaa28ae295daa41dd926108e0471029",
+  "after": "b947412e2ee345fea3f78ac32ee98d61d6509fd1",
   "repository": {
     "id": 310523754,
     "node_id": "MDEwOlJlcG9zaXRvcnkzMTA1MjM3NTQ=",
@@ -71,8 +71,8 @@
     "releases_url": "https://api.github.com/repos/alanmoment/hello/releases{/id}",
     "deployments_url": "https://api.github.com/repos/alanmoment/hello/deployments",
     "created_at": 1604647856,
-    "updated_at": "2020-12-18T09:59:16Z",
-    "pushed_at": 1608285914,
+    "updated_at": "2020-12-18T10:05:16Z",
+    "pushed_at": 1608286384,
     "git_url": "git://github.com/alanmoment/hello.git",
     "ssh_url": "git@github.com:alanmoment/hello.git",
     "clone_url": "https://github.com/alanmoment/hello.git",
@@ -128,15 +128,15 @@
   "deleted": false,
   "forced": false,
   "base_ref": null,
-  "compare": "https://github.com/alanmoment/hello/compare/43241aaa156b...b2ff0c514aaa",
+  "compare": "https://github.com/alanmoment/hello/compare/b2ff0c514aaa...b947412e2ee3",
   "commits": [
     {
-      "id": "b2ff0c514aaa28ae295daa41dd926108e0471029",
-      "tree_id": "29a5e4dddc293fe949bae5d1eea98b7bf02d4291",
+      "id": "b947412e2ee345fea3f78ac32ee98d61d6509fd1",
+      "tree_id": "68ed209ab6dd8d1cfc33bba1e1e1500d4d1ef745",
       "distinct": true,
-      "message": "test1",
-      "timestamp": "2020-12-18T18:05:09+08:00",
-      "url": "https://github.com/alanmoment/hello/commit/b2ff0c514aaa28ae295daa41dd926108e0471029",
+      "message": "test2",
+      "timestamp": "2020-12-18T18:12:59+08:00",
+      "url": "https://github.com/alanmoment/hello/commit/b947412e2ee345fea3f78ac32ee98d61d6509fd1",
       "author": {
         "name": "Alan",
         "email": "alanchen@kkstream.com"
@@ -146,7 +146,7 @@
         "email": "alanchen@kkstream.com"
       },
       "added": [
-
+        "github-push-event.json"
       ],
       "removed": [
 
@@ -157,12 +157,12 @@
     }
   ],
   "head_commit": {
-    "id": "b2ff0c514aaa28ae295daa41dd926108e0471029",
-    "tree_id": "29a5e4dddc293fe949bae5d1eea98b7bf02d4291",
+    "id": "b947412e2ee345fea3f78ac32ee98d61d6509fd1",
+    "tree_id": "68ed209ab6dd8d1cfc33bba1e1e1500d4d1ef745",
     "distinct": true,
-    "message": "test1",
-    "timestamp": "2020-12-18T18:05:09+08:00",
-    "url": "https://github.com/alanmoment/hello/commit/b2ff0c514aaa28ae295daa41dd926108e0471029",
+    "message": "test2",
+    "timestamp": "2020-12-18T18:12:59+08:00",
+    "url": "https://github.com/alanmoment/hello/commit/b947412e2ee345fea3f78ac32ee98d61d6509fd1",
     "author": {
       "name": "Alan",
       "email": "alanchen@kkstream.com"
@@ -172,7 +172,7 @@
       "email": "alanchen@kkstream.com"
     },
     "added": [
-
+      "github-push-event.json"
     ],
     "removed": [
 
