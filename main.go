@@ -19,7 +19,7 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
 			fmt.Println("key:", k)
 			fmt.Println("val:", strings.Join(v, ""))
 	}
-	fmt.Fprintf(w, "Hello! Alan") //這個寫入到 w 的是輸出到客戶端的
+	fmt.Fprintf(w, "Hello! Alan!!") //這個寫入到 w 的是輸出到客戶端的
 }
 
 func main() {
